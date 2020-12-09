@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+h1,h2,h3,h4,h5.h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+ul,ol,li{
+    list-style: none;
+}
+a,s,del,u,ins{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+}
+a:hover{
+    color: inherit;
+}
+img{
+    vertical-align: top;
+}
+input{
+    outline: none;
+}
+html,body{
+    font: 16px "Microsoft yahei";
+}
+i,em{
+    font-style: normal;
+}
+b,strong,h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::before , .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
